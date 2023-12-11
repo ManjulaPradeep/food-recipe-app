@@ -31,3 +31,7 @@ select{
 div.inline{
     float: left;
 }
+
+.liteLable{
+    color: #ffffff; 
+}
