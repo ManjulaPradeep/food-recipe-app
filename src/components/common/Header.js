@@ -88,6 +88,9 @@ const Header = () => {
                     <li>
                         <NavLink to={"/Contact"}>Contact</NavLink>
                     </li>
+                    <li>
+                        <NavLink to={"/MealPage2"}>MealPage2</NavLink>
+                    </li>
                 </ul>
             </nav>
         </div>

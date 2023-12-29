@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import MealPage from './pages/MealPage';
+import MealPage2 from './pages/MealPage2';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
                 <Route path='/About' exact Component={About}></Route>
                 <Route path='/Contact' exact Component={Contact}></Route>
                 <Route path='/MealPage' exact Component={MealPage}></Route>
+                <Route path='/MealPage2' exact Component={MealPage2}></Route>
 
               </Routes>
             {/* </switch> */}

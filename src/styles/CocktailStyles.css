@@ -27,6 +27,10 @@ select{
     margin-top: 40px;
 }
 
+li{
+    color: #ffffff;
+}
+
 
 div.inline{
     float: left;
